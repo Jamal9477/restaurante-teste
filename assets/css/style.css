@@ -1,0 +1,96 @@
+.standart{
+    display: grid;
+    grid-template-columns: 200px 270px 300px 200px 70px;
+    grid-template-rows: 50px;
+    gap: 60px;
+    background-color: rgb(56, 52, 45);
+}
+/*Icone do Menu*/
+.boxStandart{
+    display: flex;
+    background-color: rgb(56, 52, 45);
+    padding: 7px;
+}
+    .standartMenuIcon{
+    display: grid;
+    grid-template-columns: 30px;
+    grid-template-rows: 5px 5px 5px;
+    gap: 5px;
+    scale: 0.6;
+    }
+        .standartMenuIcon div{
+          width: 100%;
+          height: 100%;
+          margin-left: 15px;
+          background-color: black;
+        }
+    .standartTituloPT1{
+    margin-left: 20px;
+    color: gold;
+    }
+    .standartTituloPT2{
+    color: rgb(255, 103, 47);
+    }/*<--Final titulo e menu*/
+.boxStandartCity{
+    display: flex;
+    gap: 10px;
+    padding: 7px;
+    background-color: rgb(56, 52, 45);
+    color: gold;
+}
+    .boxStandartCityBtn{
+    color: gold;
+    text-decoration: none;
+    }
+.searchStandart{
+    background-color: rgb(56, 52, 45);
+    display: flex;
+    padding: 8px;
+}
+        .searchStandart button{
+        border: none;
+        width: 50px;
+        background-color: white;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        }
+        .searchStandart input{
+        border: none;
+        background-color: white;
+        }
+.searchCrown{
+    background-color: white;
+    text-align: center;
+    width: 35px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+        .searchCrown svg{
+        margin-top: 5px;
+        }
+.standartEntrada{
+    display: grid;
+    grid-template-columns: 34px 35px;
+    grid-template-rows: 50px;
+    color: gray;
+    gap: 5px;
+    background-color: rgb(56, 52, 45);
+}
+        .standartEntrada h4{
+            margin-top: 8px;
+        }
+        .standartEntrada span{
+            justify-self: center;
+            height: 50px;
+            width: 40px;
+            text-align: center;
+        }
+        .standartEntrada i{
+            font-size: 30px;
+        }
+.standartCarrinho{
+    font-size: 29px;
+    text-align: center;
+    background-color: rgb(56, 52, 45);
+    color: orangered;
+}
