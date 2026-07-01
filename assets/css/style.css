@@ -3,12 +3,12 @@
     grid-template-columns: 200px 270px 300px 200px 70px;
     grid-template-rows: 50px;
     gap: 60px;
-    background-color: #2B1D0E;
+    background-color: rgb(56, 52, 45);
 }
 /*Icone do Menu*/
 .boxStandart{
     display: flex;
-    background-color: #2B1D0E;
+    background-color: rgb(56, 52, 45);
     padding: 7px;
 }
     .standartMenuIcon{
@@ -17,7 +17,6 @@
     grid-template-rows: 5px 5px 5px;
     gap: 5px;
     scale: 0.6;
-    cursor: pointer;
     }
         .standartMenuIcon div{
           width: 100%;
@@ -36,19 +35,15 @@
     display: flex;
     gap: 10px;
     padding: 7px;
-    background-color: #2B1D0E;
+    background-color: rgb(56, 52, 45);
     color: gold;
 }
     .boxStandartCityBtn{
-    color: #FFF176;
+    color: gold;
     text-decoration: none;
     }
-    .boxStandartCityBtn:hover{
-        text-decoration: underline;
-        cursor: pointer;
-    }
 .searchStandart{
-    background-color: #2B1D0E;
+    background-color: rgb(56, 52, 45);
     display: flex;
     padding: 8px;
 }
@@ -79,7 +74,7 @@
     grid-template-rows: 50px;
     color: gray;
     gap: 5px;
-    background-color: #2B1D0E;
+    background-color: rgb(56, 52, 45);
 }
         .standartEntrada h4{
             margin-top: 8px;
@@ -96,39 +91,6 @@
 .standartCarrinho{
     font-size: 29px;
     text-align: center;
-    background-color: #2B1D0E;
-    color: orangered;
-}
-.principalPart{
-    height: 100%;
-    width: 100%;
-}
-.catalogoMenu{
-    display: grid;
-    grid-template-columns: 130px 130px 130px 130px 130px 130px 130px 130px;
-    grid-template-rows: 150px;
-    gap: 25px;
-    text-align: center;
-}
-.catalogoOpcao{
     background-color: rgb(56, 52, 45);
-    color: #FFB300;
-    text-decoration: none;
-    height: 100%;
-    width: 100%;
-    margin-left: 40px;
-    border-radius: 10px;
-    border: 2px solid transparent;
-    transition: 0.3s;
-}
-.catalogoOpcao:hover{
-    border: 2px solid gold;
-    scale: 1.1;
-    transition: 0.3s;
-
-}
-.catalogoOpcaoImage{
-    margin-top: 8px;
-    height: 110px;
-    border-radius: 100%;
+    color: orangered;
 }
